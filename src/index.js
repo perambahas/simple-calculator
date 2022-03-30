@@ -116,6 +116,7 @@ clear.addEventListener('click', () => {
 decimal.addEventListener('click', () => {
   inputDecimal(decimal.textContent)
   updateScreen(currentNumber)
+  recentScreen(decimal.textContent)
 })
 
 delet.addEventListener('click', () => {
